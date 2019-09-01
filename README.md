@@ -13,5 +13,7 @@ https://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
 # Getting Started with Raspberry Pi, must Read
 https://kitflix.com/how-to-setup-raspberry-pi-for-the-first-time-use/
 
+# Link to my Drive with all PPTs and resources
+https://1drv.ms/u/s!ArqMt74YGlePg5IyuBOB2H7NiQRysQ?e=yow93Z
 
 
