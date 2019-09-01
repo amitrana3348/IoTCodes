@@ -1,6 +1,9 @@
 # IoTCodes
 Iot Codes
 
+# Download NOOBS from
+https://www.raspberrypi.org/downloads/noobs/
+
 # Link to Learn More about the ESP8266 Commands
 https://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
 
