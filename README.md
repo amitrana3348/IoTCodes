@@ -17,3 +17,11 @@ https://kitflix.com/how-to-setup-raspberry-pi-for-the-first-time-use/
 https://1drv.ms/u/s!ArqMt74YGlePg5IyuBOB2H7NiQRysQ?e=yow93Z
 
 
+# For Azure, follow exact steps with additional thing mentioned below
+https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-python
+
+sudo apt-get -y install nodejs
+pip install azure-iot-device
+
+
+
