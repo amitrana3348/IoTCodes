@@ -30,5 +30,9 @@ https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-quick-c
 # Azure PowerBI
 https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-power-bi
 
+# for aws
+pip install AWSIoTPythonSDK.
+https://docs.aws.amazon.com/iot/latest/developerguide/iot-plant-module1.html.
+
 
 
