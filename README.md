@@ -24,6 +24,9 @@ sudo apt-get -y install nodejs
 
 pip install azure-iot-device
 
+# Download Filezilla here
+https://filezilla-project.org/
+
 # Azure Stream Analytics
 https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-quick-create-portal
 
