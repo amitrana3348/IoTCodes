@@ -21,7 +21,14 @@ https://1drv.ms/u/s!ArqMt74YGlePg5IyuBOB2H7NiQRysQ?e=yow93Z
 https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-python
 
 sudo apt-get -y install nodejs
+
 pip install azure-iot-device
+
+# Azure Stream Analytics
+https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-quick-create-portal
+
+# Azure PowerBI
+https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-power-bi
 
 
 
