@@ -9,7 +9,7 @@ import os
 import time
 from azure.iot.hub import IoTHubRegistryManager
 
-connection_str = "HostName=mypihub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=SHssClYFwLuAKDWCdZC3gcib84jmaOUDh3xHCcmqGdk="
+connection_str = "HostName=mypihub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=Hoinz/9F45g9qQasWjp54aAn7vobGrkTrx0kbX1Se9w="
 device_id = "amit_testDevice"
 
 
