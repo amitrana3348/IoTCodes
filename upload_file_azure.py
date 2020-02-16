@@ -5,7 +5,7 @@ import os
 from iothub_client import IoTHubClient, IoTHubClientError, IoTHubTransportProvider, IoTHubClientResult, IoTHubError
 
 
-CONNECTION_STRING = "HostName=mypihub.azure-devices.net;DeviceId=mypi;SharedAccessKey=5YbVwJKG9urH/22pk6J+HJjskrzdjt6xmH2CQ1Xb5f0="
+CONNECTION_STRING = "HostName=amitpihub.azure-devices.net;DeviceId=mypi;SharedAccessKey=glIaxPvJmWy0lfDw+B6nbtOUL+OfFF7rfeMuvjSqiPw="
 PROTOCOL = IoTHubTransportProvider.HTTP
 
 PATHTOFILE = "D:/Online Classes/edureka/Edureka materials/S6/abc.txt"
