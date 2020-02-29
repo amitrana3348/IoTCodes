@@ -1,3 +1,6 @@
+# This code will send the sense hat data to thingspeak account
+
+# you'll need to modify the url variable with your own WRITE API key from your thingspeak account
 from sense_hat import SenseHat
 from urllib.request import urlopen
 import time
