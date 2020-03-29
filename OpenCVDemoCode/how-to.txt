@@ -12,12 +12,15 @@ OpenCV programs
 
 The trial program is
 IntrotoPYCV.py
+this code will demonstrate you the FACE DETECTION so if there are any faces in image in front your cam, it'll be shown
 
 For face recognition, first run
 datasetcreator.py
+it'll create number of images and will be stored in the same folder
 
-then run
+now copy all those images, and place it in the images folder that is newly created and then run below file
 trainer.py
+
 
 lastly, run
 detector.py
