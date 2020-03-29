@@ -4,6 +4,10 @@ pip install opencv-contrib-python
 if on raspberry pi
 sudo pip install opencv-contrib-python
 
+sudo pip3 install pillow --ON PI
+pip install pillow --ON PC
+
+
 OpenCV programs
 
 The trial program is
@@ -18,5 +22,3 @@ trainer.py
 lastly, run
 detector.py
 
-
-Lets have a 10 min break
