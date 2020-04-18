@@ -37,5 +37,16 @@ https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-i
 pip install AWSIoTPythonSDK.
 https://docs.aws.amazon.com/iot/latest/developerguide/iot-plant-module1.html.
 
+# For Azure IoT hub functions
+https://medium.com/medialesson/iothubtrigger-azure-function-and-azure-iot-hub-e45ea819e6b5
+
+# For Azure IoT Edge Implemenation
+https://thenewstack.io/tutorial-connect-and-configure-raspberry-pi-as-an-azure-iot-edge-device/
+https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
+
+# Azure Edge Computer vision project
+https://docs.microsoft.com/en-us/samples/azure-samples/custom-vision-service-iot-edge-raspberry-pi/custom-vision-azure-iot/
+
+
 
 
