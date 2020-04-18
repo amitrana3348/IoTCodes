@@ -47,6 +47,9 @@ https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
 # Azure Edge Computer vision project
 https://docs.microsoft.com/en-us/samples/azure-samples/custom-vision-service-iot-edge-raspberry-pi/custom-vision-azure-iot/
 
+# Nice tutorial from microsoft about iot edge
+https://www.youtube.com/watch?v=01kHKNN3z-0
+
 
 
 
