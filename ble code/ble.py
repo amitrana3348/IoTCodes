@@ -1,6 +1,12 @@
 import configparser
 from os import system
 import time
+#led1 = 21 #pin where you connect relay to raspberry pi 
+#import RPi.GPIO as GPIO
+import time
+#GPIO.setmode(GPIO.BCM)
+#GPIO.setup(led1, GPIO.OUT)
+
 
 def readConfig():
    global ble_id
@@ -53,15 +59,11 @@ if __name__=='__main__':
          print("On = ",on)
          print("Off = ",off)
       if on == p_threshold and status != "on":
-         #command = "echo 1 > /sys/class/gpio/gpio{}/value".format(gpio_pin)  
-         #system(command)
-         #print(command)
          status = "on"
          print("\n\nDevice On")
+         #GPIO.output(led1, True) 
       if off == a_threshold and status != "off":
-         #command = "echo 0 > /sys/class/gpio/gpio{}/value".format(gpio_pin)  
-         #system(command)
-         #print(command)
          status = "off"
          print("\n\nDevice Off")
+         #GPIO.output(led1, False) 
       time.sleep(1)
