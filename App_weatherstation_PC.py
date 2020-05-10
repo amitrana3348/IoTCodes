@@ -35,7 +35,11 @@ def login_open_sheet(oauth_key_file, spreadsheet):
 		credentials = SignedJwtAssertionCredentials(json_key['client_email'],json_key['private_key'],scope)
 													
 													
-		gc = gspread.authorize(credentials)
+		#below line doesn't work anymore so commented, and use the other way to authorize											
+		#gc = gspread.authorize(credentials)
+		#instead, use one of the 2 below lines
+		#gc = gspread.service_account(filename='D:\Online Classes\edureka\Edureka materials\S3\code\iotsheets-276804-a20f837deb72.json')
+		gc = gspread.service_account(GDOCS_OAUTH_JSON)
 		worksheet = gc.open(spreadsheet).sheet1
 		return worksheet
 	except Exception as ex:
