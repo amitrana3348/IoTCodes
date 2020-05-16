@@ -1,0 +1,11 @@
+First install paho-mqtt in ur computer
+
+if COmputer use
+
+pip3 install paho-mqtt
+
+if RPI, use
+sudo pip3 install paho-mqtt
+
+HIVE MQTT broker is here
+http://www.hivemq.com/demos/websocket-client/
