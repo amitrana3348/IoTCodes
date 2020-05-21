@@ -5,11 +5,11 @@ import os
 from iothub_client import IoTHubClient, IoTHubClientError, IoTHubTransportProvider, IoTHubClientResult, IoTHubError
 
 
-CONNECTION_STRING = "HostName=amitpihub.azure-devices.net;DeviceId=mypi;SharedAccessKey=glIaxPvJmWy0lfDw+B6nbtOUL+OfFF7rfeMuvjSqiPw="
+CONNECTION_STRING = "HostName=mypihub.azure-devices.net;DeviceId=mypi;SharedAccessKey=m6Wvp2XIRVhgDyK2Tq2E2O7TU4DGumVtOkVE1IclnVk="
 PROTOCOL = IoTHubTransportProvider.HTTP
 
-PATHTOFILE = "D:/Online Classes/edureka/Edureka materials/S6/abc.txt"
-FILENAME = "myFilenameToAppearOnAzure.txt"
+PATHTOFILE = "D://Online Classes//edureka//Edureka materials//S6//SimulatedDevice.py"
+FILENAME = "mycode.py"
 def blob_upload_conf_callback(result, user_context):
     if str(result) == 'OK':
         print ( "...file uploaded successfully." )
